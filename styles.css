@@ -10,7 +10,6 @@ body {
   height: 350px;
   max-height: 350px;
   position: relative;
-  top: 50px;
   left: 50%;
   text-align: center;
 }
@@ -32,6 +31,9 @@ body {
 }
 
 .Links {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: darkblue;
 }
 
 .button {
