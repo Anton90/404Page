@@ -18,7 +18,7 @@ body {
 }
 
 img {
-  height: 150px; 
+  height: 150px;
 }
 
 .Message {
@@ -51,7 +51,17 @@ img {
   text-align: center;
   display: inline-block;
 }
+
 .button:hover {
   background-color: blue;
   color: white;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: green;}
+  100% {background-color: blue;}
 }
