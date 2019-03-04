@@ -10,12 +10,18 @@ body {
   max-width: 500px;
   height: 200px;
   max-height: 200px;
+  position: relative;
+  top: 200px;
+  left: 50%;
 }
 
+.Error {
+  border: 1px solid;
+}
 .Message {
-
+  border: 1px solid;
 }
 
 .Links {
-
+  border: 1px solid;
 }
