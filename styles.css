@@ -1,3 +1,13 @@
 body {
-  background-image: url("PolarBear");
+  background: url("Penguins") no-repeat center center fixed;
+  background-size: contain;
+
+}
+
+.Container {
+  border: 1px solid;
+  width: 500px;
+  max-width: 500px;
+  height: 200px;
+  max-height: 200px; 
 }
